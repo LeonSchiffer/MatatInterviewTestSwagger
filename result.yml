@@ -1,0 +1,68 @@
+openapi: 3.0.0
+info:
+  title: Matat Interview Test Swagger
+  description: Swagger API for Matat Interview Test
+  version: '1.0'
+  x-logo:
+    url: https://github.com/joolfe/logoBanner.png
+    backgroundColor: '#FFFFFF'
+    altText: logo
+  termsOfService: '#'
+  contact:
+    name: Bishal Gurung
+    url: https://grgbishal.com
+    email: grgbishal360@gmail.com
+  license:
+    name: MIT
+    url: https://es.wikipedia.org/wiki/Licencia_MIT
+servers:
+  - url: ''
+    description: server
+tags:
+  - name: Orders
+paths:
+  /api/orders:
+    get:
+      tags:
+        - Orders
+      summary: get all orders
+      parameters:
+        - name: Accept
+          in: header
+          schema:
+            type: string
+          example: application/json
+        - name: status
+          in: query
+          schema:
+            type: string
+          description: values= ["", "processing", "pending", "completed"]
+        - name: limit
+          in: query
+          schema:
+            type: string
+          description: values = <integer>
+        - name: sort_order
+          in: query
+          schema:
+            type: string
+          description: values= ["ASC", "DESC"]
+        - name: search_query
+          in: query
+          schema:
+            type: string
+        - name: start_date
+          in: query
+          schema:
+            type: string
+          example: 2024-03-9
+        - name: end_date
+          in: query
+          schema:
+            type: string
+          example: '2024-03-14'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}

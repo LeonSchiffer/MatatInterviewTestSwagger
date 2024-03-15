@@ -1,0 +1,29 @@
+{
+    "info": {
+        "title": "Matat Interview Test Swagger",
+        "version": "1.0",
+        "description": "Swagger API for Matat Interview Test",
+        "termsOfService": "#",
+        "license": {
+            "name": "MIT",
+            "url": "https://es.wikipedia.org/wiki/Licencia_MIT"
+        },
+        "contact": {
+            "name": "Bishal Gurung",
+            "url": "https://grgbishal.com",
+            "email": "grgbishal360@gmail.com"
+        },
+        "xLogo": {
+            "url": "https://github.com/joolfe/logoBanner.png",
+            "backgroundColor": "#FFFFFF",
+            "altText": "logo"
+        }
+        
+    },
+    "servers": [
+        {
+            "url": "",
+            "description": "server"
+        }
+    ]
+}
