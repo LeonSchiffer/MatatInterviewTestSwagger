@@ -16,12 +16,12 @@ info:
     name: MIT
     url: https://es.wikipedia.org/wiki/Licencia_MIT
 servers:
-  - url: ''
+  - url: https://matat.grgbishal.com
     description: server
 tags:
   - name: Orders
 paths:
-  /api/orders:
+  /api/v1/orders:
     get:
       tags:
         - Orders

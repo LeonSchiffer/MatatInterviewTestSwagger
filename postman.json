@@ -21,12 +21,13 @@
 							}
 						],
 						"url": {
-							"raw": "{{url}}/api/orders?status=&limit=&sort_order=&search_query=&start_date=2024-03-9&end_date=2024-03-14",
+							"raw": "{{url}}/api/v1/orders?status=&limit=&sort_order=&search_query=&start_date=2024-03-9&end_date=2024-03-14",
 							"host": [
 								"{{url}}"
 							],
 							"path": [
 								"api",
+								"v1",
 								"orders"
 							],
 							"query": [
