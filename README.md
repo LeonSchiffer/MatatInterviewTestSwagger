@@ -8,6 +8,6 @@
 
 3. Run `make doc` in terminal to generate openApi.
 
-# 4. View Api in : https://scodus.github.io/MatatInterviewTestSwagger/
+# 4. View Api in : https://leonschiffer.github.io/MatatInterviewTestSwagger
 
 #### Reference `https://joolfe.github.io/postman-to-openapi/`
